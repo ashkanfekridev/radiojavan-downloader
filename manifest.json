@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "rj-downloader",
+    "version": "1.0",
+    "description": "Adds message Hello word to all webpages",
+    "icons": {
+      "48": "icon.png"
+    },
+    "content_scripts": [
+      {
+        "matches": ["*://*/*"],
+        "js": ["rj.js"]
+      }
+    ]
+  }

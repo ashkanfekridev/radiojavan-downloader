@@ -1,0 +1,55 @@
+*,html, body{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+
+
+*, body{
+	direction: rtl;
+	font-family: iranyekan
+}
+
+
+.container{
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+.row{
+	display: flex;
+	flex-wrap: wrap;
+  	margin-right: -15px;
+  	margin-left: -15px;
+}
+[class*="col-"]{
+	width: 100%;
+  	padding-right: 15px;
+  	padding-left: 15px;
+}
+
+.col-5{
+	max-width: 50%
+}
+.col-10{
+	max-width: 100%
+}
+
+input{
+	padding: 15px;
+	margin-top: 15px;
+	width: 100%;
+	font-size: 1.25em;
+	text-align: center;
+}
+
+
+button{
+	padding: 15px;
+	margin:  15px 0;
+	display: block;
+	width: 100%;
+	font-family: iranyekan;
+	font-size: 1.5em
+}
