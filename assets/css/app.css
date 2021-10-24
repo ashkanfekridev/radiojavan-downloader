@@ -5,12 +5,10 @@
 	position: relative;
 }
 
-
 *, body{
 	direction: rtl;
-	font-family: iranyekan
+	font-family: IRANYekanWeb, serif
 }
-
 
 .container{
 	padding: 0 15px;
@@ -23,6 +21,7 @@
   	margin-right: -15px;
   	margin-left: -15px;
 }
+
 [class*="col-"]{
 	width: 100%;
   	padding-right: 15px;
@@ -44,12 +43,10 @@ input{
 	text-align: center;
 }
 
-
 button{
 	padding: 15px;
 	margin:  15px 0;
 	display: block;
 	width: 100%;
-	font-family: iranyekan;
 	font-size: 1.5em
 }
